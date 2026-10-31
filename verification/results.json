@@ -1,0 +1,224 @@
+{
+  "scope": "Finite circuit and algebra checks only. The inherited asymptotic query lower bound is not numerically tested.",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "seed": 20261031,
+  "absolute_tolerance": 2e-11,
+  "checks": [
+    {
+      "name": "check_full_oracle_completion",
+      "status": "pass",
+      "results": {
+        "n": 2,
+        "m": 16,
+        "full_dimension": 64,
+        "reference_vector_error": 6.106104587596676e-16,
+        "same_rows_other_completion_distance": 2.0
+      },
+      "elapsed_seconds": 0.031502942998486105
+    },
+    {
+      "name": "check_exact_amplification_and_lcu",
+      "status": "pass",
+      "results": {
+        "cases": [
+          {
+            "n": 2,
+            "m": 16,
+            "m_equals_n_to_four": true,
+            "grover_iterations": 2,
+            "image_preparation_queries": 5,
+            "stationary_preparation_queries": 15,
+            "index_erasure_vector_error": 7.894908750307956e-16,
+            "lcu_success": 0.6862915010152391,
+            "clean_qsample_vector_error": 1.8419287919135006e-15,
+            "wrong_relative_phase_branch_error": 0.8284271247461896
+          },
+          {
+            "n": 4,
+            "m": 32,
+            "m_equals_n_to_four": false,
+            "grover_iterations": 2,
+            "image_preparation_queries": 5,
+            "stationary_preparation_queries": 15,
+            "index_erasure_vector_error": 1.4834235545680003e-15,
+            "lcu_success": 0.6862915010152381,
+            "clean_qsample_vector_error": 3.6808920872362e-15,
+            "wrong_relative_phase_branch_error": 0.8284271247461894
+          },
+          {
+            "n": 8,
+            "m": 128,
+            "m_equals_n_to_four": false,
+            "grover_iterations": 3,
+            "image_preparation_queries": 7,
+            "stationary_preparation_queries": 21,
+            "index_erasure_vector_error": 3.3857033474007605e-15,
+            "lcu_success": 0.6306831231470162,
+            "clean_qsample_vector_error": 6.251123256801789e-15,
+            "wrong_relative_phase_branch_error": 0.8768943743823382
+          }
+        ]
+      },
+      "elapsed_seconds": 0.01658587300335057
+    },
+    {
+      "name": "check_postselection_constants",
+      "status": "pass",
+      "results": {
+        "n": 4,
+        "m": 64,
+        "m_equals_n_to_four": false,
+        "ideal_success": 0.2857555297489649,
+        "uniform_lower_bound": 0.21875,
+        "cases": [
+          {
+            "input_type": "pure",
+            "input_trace_error": 0.0010000000000001477,
+            "success": 0.28589609439180796,
+            "conditional_trace_error": 0.00184754368944268,
+            "proved_bound": 0.0034994948334985633
+          },
+          {
+            "input_type": "pure",
+            "input_trace_error": 0.02000000000000017,
+            "success": 0.2840106063119153,
+            "conditional_trace_error": 0.03711609349989793,
+            "proved_bound": 0.06998989666996153
+          },
+          {
+            "input_type": "pure",
+            "input_trace_error": 0.10000000000000035,
+            "success": 0.28676127682744423,
+            "conditional_trace_error": 0.17966597315638133,
+            "proved_bound": 0.3499494833498059
+          },
+          {
+            "input_type": "mixed",
+            "input_trace_error": 0.0010000000000001002,
+            "success": 0.28646897390903464,
+            "conditional_trace_error": 0.0034844925421697293,
+            "proved_bound": 0.003499494833498397
+          },
+          {
+            "input_type": "mixed",
+            "input_trace_error": 0.020000000000000184,
+            "success": 0.29998308453182254,
+            "conditional_trace_error": 0.06624000957463513,
+            "proved_bound": 0.06998989666996158
+          },
+          {
+            "input_type": "mixed",
+            "input_trace_error": 0.10000000000000041,
+            "success": 0.3571159236311914,
+            "conditional_trace_error": 0.2796175076862376,
+            "proved_bound": 0.3499494833498061
+          }
+        ]
+      },
+      "elapsed_seconds": 0.020847529001912335
+    },
+    {
+      "name": "check_chain_and_product_spectra",
+      "status": "pass",
+      "results": {
+        "n": 2,
+        "m": 16,
+        "m_equals_n_to_four": true,
+        "within_main_theorem_n_at_least_four": false,
+        "purpose": "finite algebraic diagnostic; no asymptotic lower bound is tested",
+        "flat_composition_norm_error": 0.2966006261128451,
+        "rayleigh_witness": 0.28603459215631,
+        "independent_norm_lower_bound": 0.2815792394742066,
+        "product_cases": [
+          {
+            "T": 4,
+            "measured_gap": 0.7499999999999998,
+            "predicted_gap": 0.75
+          },
+          {
+            "T": 9,
+            "measured_gap": 0.3950617283950615,
+            "predicted_gap": 0.3950617283950617
+          },
+          {
+            "T": 64,
+            "measured_gap": 0.06152343749999978,
+            "predicted_gap": 0.0615234375
+          }
+        ]
+      },
+      "elapsed_seconds": 0.003710192999278661
+    },
+    {
+      "name": "check_bridge_identity_and_controls",
+      "status": "pass",
+      "results": {
+        "cases": [
+          {
+            "chain": "reversible",
+            "steps": 2,
+            "flat_power_error": 8.981892944681074e-17,
+            "maximum_bridge_affinity_deficit": 1.1102230246251565e-16,
+            "norm_bound": 1.1102230246251564e-16
+          },
+          {
+            "chain": "reversible",
+            "steps": 3,
+            "flat_power_error": 7.850462293418876e-17,
+            "maximum_bridge_affinity_deficit": 2.220446049250313e-16,
+            "norm_bound": 2.2204460492503128e-16
+          },
+          {
+            "chain": "reversible",
+            "steps": 4,
+            "flat_power_error": 1.5072357404961202e-16,
+            "maximum_bridge_affinity_deficit": 1.1102230246251565e-16,
+            "norm_bound": 1.1102230246251563e-16
+          },
+          {
+            "chain": "nonreversible",
+            "steps": 2,
+            "flat_power_error": 0.43243172647133904,
+            "maximum_bridge_affinity_deficit": 0.5515064807182305,
+            "norm_bound": 0.5317028930006206
+          },
+          {
+            "chain": "nonreversible",
+            "steps": 3,
+            "flat_power_error": 0.6051127392802069,
+            "maximum_bridge_affinity_deficit": 0.7040355083603113,
+            "norm_bound": 0.6989473340282811
+          },
+          {
+            "chain": "nonreversible",
+            "steps": 4,
+            "flat_power_error": 0.7080414274693079,
+            "maximum_bridge_affinity_deficit": 0.7226827113480769,
+            "norm_bound": 0.7159645766896028
+          }
+        ],
+        "nonpositive_support_converse_counterexample_error": 0.0
+      },
+      "elapsed_seconds": 0.02610962499966263
+    },
+    {
+      "name": "check_coherent_bridge_compiler",
+      "status": "pass",
+      "results": {
+        "uniform_bridge_vector_error": 0.11177985659663209,
+        "maximum_row_vector_error": 0.07416537769643822,
+        "full_unitary_completion_error": 0.07416537769643823,
+        "reference_vector_error": 0.059310593649545953,
+        "two_call_operator_error": 0.09054001416759432,
+        "phase_blind_bridge_fidelities": [
+          0.9999999999999996,
+          0.9999999999999996
+        ],
+        "phase_blind_compiler_endpoint_fidelity": 5.004680467665246e-34
+      },
+      "elapsed_seconds": 0.005071111998404376
+    }
+  ],
+  "status": "pass"
+}
