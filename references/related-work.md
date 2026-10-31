@@ -12,7 +12,7 @@ The error convention in their §2.2 is essential. If the full final state is $`|
 
 ```math
 \bigl\|(\langle F_f|\otimes I)|\Psi_f\rangle\bigr\|
-=\max_{|g_f\rangle}\operatorname{Re}\langle F_f,g_f|\Psi_f\rangle
+=\max_{|g_f\rangle}\mathrm{Re}\langle F_f,g_f|\Psi_f\rangle
 \ge\sqrt{1-\epsilon}.
 ```
 

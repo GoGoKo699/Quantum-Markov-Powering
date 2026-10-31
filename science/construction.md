@@ -26,7 +26,7 @@ P_f^2((x,y),(z,w))
 &=\frac1N\left(\frac1N\sum_{a\in[N]}K_a(w)\right)\\
 &=\frac1N\left(
    \frac1{2M}+
-   \frac{\mathbf1_{\{w\in\operatorname{im}f\}}}{2N}
+   \frac{\mathbf1_{\{w\in\mathrm{im}f\}}}{2N}
    \right).
 \end{aligned}
 ```
@@ -35,7 +35,7 @@ Let
 
 ```math
 q_f(w)=\frac1{2M}
-       +\frac{\mathbf1_{\{w\in\operatorname{im}f\}}}{2N},
+       +\frac{\mathbf1_{\{w\in\mathrm{im}f\}}}{2N},
 \qquad
 \pi_f(z,w)=\frac{q_f(w)}N.
 ```

@@ -96,8 +96,8 @@ r_{xz}r_{zy}=r_{xy}.
 Fix a reference state $`o`$ and let $`a_x=r_{ox}`$. Taking $`z=o`$ gives $`r_{xy}=a_y/a_x`$. Thus $`\pi_x=a_x/\sum_z a_z`$ satisfies $`\pi_xP_{xy}=\pi_yP_{yx}`$. Detailed balance also implies stationarity. Conversely, for a reversible kernel,
 
 ```math
-D(P)=\operatorname{diag}(\sqrt\pi)\,P\,
-\operatorname{diag}(\sqrt\pi)^{-1}.
+D(P)=\mathrm{diag}(\sqrt\pi)\,P\,
+\mathrm{diag}(\sqrt\pi)^{-1}.
 ```
 
 The same relation holds for every power of $`P`$, proving the converse and the last assertion.
@@ -227,7 +227,7 @@ R=\begin{pmatrix}z&-s\\s&\overline z\end{pmatrix}
 is unitary, sends $`a`$ to $`b`$, and satisfies
 
 ```math
-\|R-I\|=\sqrt{2-2\operatorname{Re}z}=\|a-b\|.
+\|R-I\|=\sqrt{2-2\mathrm{Re}z}=\|a-b\|.
 ```
 
 Extend it by the identity on the orthogonal complement. When $`s=0`$, use the phase $`z`$ on $`a`$ and the identity elsewhere. The direct sum of these correcting rotations, multiplied on the left of $`\widetilde U_j`$, is the claimed exact completion. Its distance is the maximum column error over source blocks. Taking adjoints preserves that distance.

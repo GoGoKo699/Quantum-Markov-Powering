@@ -101,7 +101,7 @@ Normalization one fixes the signal amplitude used in the lower-bound reduction.
 For the explicit oracle family above, the following statements hold.
 
 1. The chain is strictly positive and nonreversible, and $`P_f^2=\Pi_f`$. Its unique stationary distribution is
-   $`\,\pi_f(z,w)=N^{-1}[1/(2M)+\mathbf1_{\{w\in\operatorname{im}f\}}/(2N)]`$.
+   $`\,\pi_f(z,w)=N^{-1}[1/(2M)+\mathbf1_{\{w\in\mathrm{im}f\}}/(2N)]`$.
 2. A known uniform coherent state has squared overlap at least $`1/2`$ with $`|\pi_f\rangle`$. The corresponding uniform classical distribution is pointwise bounded by $`2\pi_f`$.
 3. At error $`\delta=10^{-3}`$, each of the following tasks has worst-case query complexity $`\Theta(\sqrt N)`$: preparing $`|\pi_f\rangle`$; clean row preparation for $`P_f^2`$; implementing $`R_{P_f^2}`$; implementing $`2|\pi_f\rangle\langle\pi_f|-I`$; and block encoding $`D(P_f^2)`$ with normalization one.
 4. The powered flat discriminant is exactly
