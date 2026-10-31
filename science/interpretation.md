@@ -76,7 +76,7 @@ Multiplying its encoding gives $`D(P)^j`$. The flat discriminant of the powered 
 =D(P^j)_{xy}\,\mathsf F\!\left(B^j_{x\to y},\mathrm{rev}B^j_{y\to x}\right),
 ```
 
-where $`\mathsf F`$ is the classical Bhattacharyya affinity between the two normalized bridge laws, for endpoints with nonzero transition probabilities. Retaining the trajectory does not make this factor disappear. The explicit family has an [operator-norm discrepancy of at least $`135/256`$](construction.md#a-constant-operator-gap-between-the-two-quantum-powers) already at $`j=2`$.
+where $`\mathsf F`$ is the classical Bhattacharyya affinity between the two normalized bridge laws, for endpoints with nonzero transition probabilities. Retaining the trajectory does not make this factor disappear. The explicit family has an [operator-norm discrepancy](construction.md#a-constant-operator-gap-between-the-two-quantum-powers) of at least $`135/256`$ already at $`j=2`$.
 
 The availability of $`U_P^\dagger`$ does not supply $`U_{P^*}`$. The former reverses the preparation circuit; the latter prepares a different conditional probability law. Conflating them would change the input model and invalidate the lower-bound comparison.
 
