@@ -34,7 +34,7 @@ The amplitude-amplification checks use the constructive proof's explicit cap $`k
 
 ## Explicit postselection constants
 
-Use trace distance $`T(\rho,\sigma)=\tfrac12\|\rho-\sigma\|_1`$. Let a projection succeed with ideal probability $`p>0`$ and actual probability $`q`$, where $`T(\rho,\sigma)\le\epsilon<p`$. Then
+Use trace distance $`T(\rho,\sigma)=\tfrac12\|\rho-\sigma\|_1`$. Let a projection succeed with ideal probability $`p>0`$ and actual probability $`q`$, where $`T(\rho,\sigma)\le\epsilon\lt p`$. Then
 
 ```math
 |p-q|\le\epsilon,

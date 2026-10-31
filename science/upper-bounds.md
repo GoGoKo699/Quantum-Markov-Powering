@@ -43,7 +43,7 @@ k=\lceil\sqrt N\rceil,
 r=N\sin^2\vartheta.
 ```
 
-Since $`k\ge\sqrt N`$ and $`\pi<4`$, $`0<r\le1`$. Prepare a dilution flag $`C`$ with probability $`r`$ of being one, independently of $`L_f`$. Let $`\mathcal A_f`$ be this preparation together with $`L_f`$, and declare the good subspace to be
+Since $`k\ge\sqrt N`$ and $`\pi<4`$, $`0\lt r\le1`$. Prepare a dilution flag $`C`$ with probability $`r`$ of being one, independently of $`L_f`$. Let $`\mathcal A_f`$ be this preparation together with $`L_f`$, and declare the good subspace to be
 
 ```math
 C=1
@@ -94,7 +94,7 @@ d=\frac1{\sqrt2},
 s=N^{-3}.
 ```
 
-Let $`\ell=c+d`$. Since $`0<c\le1/\sqrt2`$,
+Let $`\ell=c+d`$. Since $`0\lt c\le1/\sqrt2`$,
 
 ```math
 1<\ell\le\sqrt2.
