@@ -77,7 +77,7 @@ For example, [Solovay–Kitaev synthesis](../references/related-work.md#gate-syn
 
 ```math
 O\!\left(
-G\,\operatorname{poly}\!\left(\log\frac G\varepsilon\right)
+G\,\mathrm{poly}\!\left(\log\frac G\varepsilon\right)
 \right)
 ```
 

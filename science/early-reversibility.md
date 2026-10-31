@@ -121,7 +121,7 @@ W_T|0\rangle
 =
 \sqrt{1-1/T}|0\rangle+\sqrt{1/T}|1\rangle,
 \qquad
-V_T=\operatorname{CNOT}_{b\to c}W_{T,c}.
+V_T=\mathrm{CNOT}_{b\to c}W_{T,c}.
 ```
 
 Then the full unitary

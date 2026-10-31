@@ -43,7 +43,7 @@ P_f^2=\mathbf1\pi_f.
 The stationary law is
 
 ```math
-\pi_f(z,w)=\frac1N\left(\frac1{2N}\mathbf1_{w\in\operatorname{im}f}
+\pi_f(z,w)=\frac1N\left(\frac1{2N}\mathbf1_{w\in\mathrm{im}f}
 +\frac1{2M}\right).
 ```
 
@@ -53,7 +53,7 @@ The uniform law is 2-warm in the convention $`\nu\le2\pi_f`$, and the known unif
 
 ## The exact distinction between two discriminants
 
-Let $`W_\pi=\operatorname{diag}(\pi)`$ and let $`P^*`$ denote the stationary time-reversal. The curved discriminant is
+Let $`W_\pi=\mathrm{diag}(\pi)`$ and let $`P^*`$ denote the stationary time-reversal. The curved discriminant is
 
 ```math
 \mathcal D(P)=W_\pi^{1/2}PW_\pi^{-1/2},
@@ -73,7 +73,7 @@ Multiplying its encoding gives $`D(P)^j`$. The flat discriminant of the powered 
 
 ```math
 [D(P)^j]_{xy}
-=D(P^j)_{xy}\,\mathsf F\!\left(B^j_{x\to y},\operatorname{rev}B^j_{y\to x}\right),
+=D(P^j)_{xy}\,\mathsf F\!\left(B^j_{x\to y},\mathrm{rev}B^j_{y\to x}\right),
 ```
 
 where $`\mathsf F`$ is the classical Bhattacharyya affinity between the two normalized bridge laws, for endpoints with nonzero transition probabilities. Retaining the trajectory does not make this factor disappear. The explicit family has an [operator-norm discrepancy of at least $`135/256`$](construction.md#a-constant-operator-gap-between-the-two-quantum-powers) already at $`j=2`$.
