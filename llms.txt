@@ -1,0 +1,23 @@
+# Quantum Markov Powering
+
+An explicit query-model separation between cheap clean one-step Markov access and costly clean coherent powers. Start with README.md and science/README.md. The authoritative scientific account is organized by topic under science/.
+
+## Questions and authoritative routes
+
+- What exactly is proved? science/model.md, especially Main theorem and Quantum primitives and error conventions.
+- What is the input oracle? science/construction.md, especially The full unitary completion. Controls and inverses are charged; the completion is explicit.
+- Why is the square hard? science/lower-bounds.md. The imported noncoherent index-erasure theorem allows arbitrary output garbage. All reductions use bounded repetition.
+- Is the lower bound tight? science/upper-bounds.md and science/resources.md. Exact amplification gives matching row-unitary query bounds, with known-gate and precision costs.
+- Does early reversibility help? science/early-reversibility.md. The known slow product separates worst-case mixing from coherent-power implementation without making ordinary stationary sampling hard.
+- What does a history circuit encode? science/bridge-composition.md. Distinguish D(P)^j from D(P^j), bridge affinity from a clean bridge oracle, and one compatible completion from an arbitrary prescribed completion.
+- What changes in existing algorithms? science/interpretation.md and references/related-work.md. Charge the implementation cost of a supplied powered-kernel walk separately. Preserve the conditional spectral theorems and richer reverse-access results.
+- Where are the sources? references/source-index.md and references/references.bib. Use the final article and visible published supplement as specified in the source index.
+- How can I reproduce the checks? verification/README.md, verification/requirements.txt, verification/verify_markov_powering.py, and verification/results.json.
+
+## Essential distinctions
+
+The tight Theta(sqrt(N)) result uses the specified one-step row unitary and its inverse. Reflection-only access inherits a lower bound, not the matching upper bound. The normalization-one condition matters for the block-encoding reduction. The time reverse of a Markov kernel is different from the inverse of a preparation circuit.
+
+A classical stationary sample is cheap. A coherent sampling purification may retain its history, and scalar amplitude estimation can use that purification. The claimed obstruction concerns pure endpoint square-root states and the explicitly listed operators. The uniform classical warm start reaches stationarity in one step; the product's Theta(T) mixing time is a worst-case statement. The known slow factor is removable, so no sqrt(NT) optimal lower bound is claimed.
+
+Finite numerical checks verify identities and implementation details. They do not establish asymptotic query lower bounds, exhaustive novelty, or an empirical runtime advantage.
