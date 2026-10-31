@@ -15,6 +15,7 @@ Checked 31 October 2026. Locations below identify the claims actually used. The 
 | `TemmeWocjan2025` | [arXiv v2](https://arxiv.org/abs/2504.02651v2), 13 December 2025; [Quantum publication](https://quantum-journal.org/papers/q-2025-12-18-1951/), 18 December 2025. | Lemma 16; Theorem 18; §5.5 Theorem 20, p. 20 of the PDF. | Classical coalescence versus implementation of the quantized coupling. |
 | `Szegedy2004` | [Final conference record](https://ieeexplore.ieee.org/document/1366222/). Related [longer author preprint](https://arxiv.org/abs/quant-ph/0401053) is titled *Spectra of Quantized Walks and a √δε rule*. | Conference bibliographic record; preprint model and overview. | Attribution of the reflection-based quantum walk framework; not an additional lower-bound input. |
 | `ApersSarlette2019` | [Final journal PDF at CWI](https://ir.cwi.nl/pub/28721/28721.pdf), QIC 19(3–4), 181–213 (2019). | Theorem 1 and surrounding formulation, pp. 182–183; §2. | Quantum fast-forwarding acts on powers of the discriminant already encoded. |
+| `Childs2025Notes` | [Author's notes](https://www.cs.umd.edu/~amchilds/qa/qa.pdf), dated 17 April 2025; [course page](https://www.cs.umd.edu/~amchilds/qa/). | §1.4; §§18.2–18.3; §19.3; §§21.1–21.2; Chapter 23; §§29.1–29.3. | Single educational anchor. The [learning bridge](../learning/anchor.md) translates its conventions and identifies the extra arguments supplied by this project and its research sources. |
 
 ## Published supplement reconciliation
 

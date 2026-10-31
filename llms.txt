@@ -11,6 +11,7 @@ An explicit query-model separation between cheap clean one-step Markov access an
 - Does early reversibility help? science/early-reversibility.md. The known slow product separates worst-case mixing from coherent-power implementation without making ordinary stationary sampling hard.
 - What does a history circuit encode? science/bridge-composition.md. Distinguish D(P)^j from D(P^j), bridge affinity from a clean bridge oracle, and one compatible completion from an arbitrary prescribed completion.
 - What changes in existing algorithms? science/interpretation.md and references/related-work.md. Charge the implementation cost of a supplied powered-kernel walk separately. Preserve the conditional spectral theorems and richer reverse-access results.
+- How can I learn the prerequisites and reconstruct the result? learning/README.md, learning/anchor.md, and learning/milestones.md. The single educational anchor is Andrew M. Childs's Lecture Notes on Quantum Algorithms, dated 17 April 2025. The bridge translates conventions and access assumptions; the 30 milestones form a project-defined dependency map in two phases. Research papers remain the sources of their attributed results.
 - Where are the sources? references/source-index.md and references/references.bib. Use the final article and visible published supplement as specified in the source index.
 - How can I reproduce the checks? verification/README.md, verification/requirements.txt, verification/verify_markov_powering.py, and verification/results.json.
 

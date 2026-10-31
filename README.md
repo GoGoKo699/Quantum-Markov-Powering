@@ -42,6 +42,7 @@ Start with the [scientific overview](science/README.md), or choose a direct rout
 - **Understand the result:** [model and theorem](science/model.md) → [construction](science/construction.md) → [interpretation](science/interpretation.md).
 - **Check the proof:** [lower bounds](science/lower-bounds.md) → [matching upper bounds](science/upper-bounds.md) → [resources](science/resources.md).
 - **Study composition:** [early reversibility](science/early-reversibility.md) → [bridge conditions](science/bridge-composition.md).
+- **Build the background:** the [learning guide](learning/README.md), the [Childs bridge](learning/anchor.md), and [30 milestones](learning/milestones.md) connect the chosen notes to the full result.
 - **Check attribution:** [related work](references/related-work.md), [versioned source index](references/source-index.md), and [BibTeX](references/references.bib).
 - **Reproduce the finite checks:** [verification guide](verification/README.md) and [recorded results](verification/results.json).
 
